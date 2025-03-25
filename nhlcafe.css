@@ -1,0 +1,25 @@
+.custom-text-color {
+    color:rgb(14, 136, 14) !important;
+}
+
+.custom-margin-top {
+    margin-top: 0 !important;
+}
+
+.custom-icon-color {
+    color:dodgerblue;
+}
+
+.custom-padding-btn {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.custom-padding-col {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+thead {
+    border-top: 2px solid rgb(247, 246, 246);
+}
