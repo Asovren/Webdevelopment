@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bestellen - NHL Café</title>
+        <!-- Bootstrap 5 CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap iconen-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/nhlcafecss/nhlcafe.css">
+    </head>
+
+    <body>
+        <div class="container-lg my-4">
+            <div class="order-overview border p-1">
+                <!-- Header -->
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                    <a class="navbar-brand" href="nhlcafe_bestellen.html">NHL Café</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTabs" aria-controls="navbarTabs" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarTabs">
+                        <ul class="nav nav-tabs w-100" id="myTab" role="tablist">
+                            <li class="nav-item flex-fill">
+                                <a class="nav-link text-center" href="nhlcafe_bestellen.html">Bestellen</a>
+                            </li>
+                            <li class="nav-item flex-fill">
+                                <a class="nav-link text-center active" href="nhlcafe_overzicht.html">Overzicht</a>
+                            </li>
+                            <li class="nav-item flex-fill">
+                                <a class="nav-link text-center" href="nhlcafe_allesbetalen.html">Alles betalen</a>
+                            </li>
+                            <li class="nav-item flex-fill">
+                                <a class="nav-link text-center" href="nhlcafe_ppbetalen.html">Per persoon betalen</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+
+                <!-- Main -->
+                <div class="container mt-4">
+                    <!-- Rij met een <h2> -->
+                    <div class="row">
+                    <div class="col">
+                        <h1>Overzicht</h1>
+                    </div>
+                    </div>
+                    <!-- Rij met 4 kolommen -->
+                    <div class="row mt-4 custom-margin-top">
+                        <!-- Rechter kolom met een nested grid van 3 kolommen -->
+                        <div class="col custom-padding-col">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Hoeveelheid</th>
+                                        <th>Prijs</th>
+                                        <th>Totaal</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Cola</td>
+                                        <td class="text-success">
+                                            <button class="btn btn-sm"><i class="bi bi-dash-circle-fill"></i></button>2<button class="btn btn-sm"><i class="bi bi-plus-circle-fill"></i></button>
+                                        </td>
+                                        <td>$2.50</td>
+                                        <td>$5.00</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Fanta</td>
+                                      <td class="text-success">
+                                        <button class="btn btn-sm"><i class="bi bi-dash-circle-fill"></i></button>5<button class="btn btn-sm"><i class="bi bi-plus-circle-fill"></i></button>
+                                    </td>
+                                        <td>$2.50</td>
+                                        <td>$12.50</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Franziskaner Weisbier 0.5L</td>
+                                      <td class="text-success">
+                                        <button class="btn btn-sm"><i class="bi bi-dash-circle-fill"></i></button>0<button class="btn btn-sm"><i class="bi bi-plus-circle-fill"></i></button>
+                                    </td>
+                                      <td>$5.00</td>
+                                      <td>$0.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="fw-bold">$17.50</td>
+                                      </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Rij met twee knoppen "Alles betalen" en "Betalen per persoon" -->
+                    <div class="row">
+                        <div class="col-12 text-end custom-padding-btn">
+                            <button class="btn btn-primary btn-md position-relative" type="button">Alles betalen</button>
+                            <button class="btn btn-primary btn-md position-relative" type="button">Betalen per persoon</button>
+                        </div>
+                    </div> 
+                </div>
+
+                <!-- Footer -->
+            </div>
+        </div>
+
+        <!-- Bootstrap 5 JS Bundle -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
